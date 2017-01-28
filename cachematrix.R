@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve computes and cahces the inverse of x the first time x is passed to 
+## cacheSolve computes and caches the inverse of x the first time x is passed to 
 ## cacheSolve.  On subsequent calls to cacheSolve(x) the cached value is 
 ## retreived.
 ##
