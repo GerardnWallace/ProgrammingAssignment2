@@ -26,11 +26,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-## Arguements: A list of functions, with a square matrix, x, assigned in the
-## parent environment. Produced by makeCacheMatrix.
+## cacheSolve computes and cahces the inverse of x the first time x is passed to 
+## cacheSolve.  On subsequent calles to cacheSolve(x) the cache value is 
+## retreived.
 ##
-## Arguements: x, A list of functions 
+## Arguements: x, A list of functions  
 ## Returns: The inverse of X
 
 cacheSolve <- function(x, ...) {
